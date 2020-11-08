@@ -1,5 +1,5 @@
 import './App.css';
-import Dinosaur from './Dinosaur';
+import DinosaurList from './components/DinosaurList';
 
 function App() {
   return (
@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
        My Dinosaurs App
       </header>
-      <Dinosaur name='Allosaurus' diet='meat'/>
-      <Dinosaur name='Apatosaurus' diet='plants'/>
+      <DinosaurList/>
     </div>
   );
 }
